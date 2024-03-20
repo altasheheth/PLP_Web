@@ -1,0 +1,74 @@
+/*NB Css is an external file and to link it to the main file you use a link tag*/
+/* */
+/*Styling the body of the web page */
+body{
+	#Modify font of the web page
+	font-family: 'Trebuchet MS', 'Lucinda sans unicode',
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	background-color: aqua;
+	color: white;
+	padding: 20px;
+}
+
+header h1{
+	margin: 0;
+	font-size: 25px;
+	
+}
+
+nav{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: aquamarine;
+}
+
+nav ul{
+	list-style: none; /* Removes the bullets*/
+	margin:	0;
+	padding: 0;
+	display: flex; /* Navigation links will be put in one row */
+	
+}
+
+nav li{
+	margin: 0 20px; /*The firt value will apply to the topside of the element and the 2nd value to the bottom*/
+	
+}
+
+/*Styling the anchor tag */
+nav a{
+	text-decoration: none;
+	color: #333;
+	
+}
+
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+section{
+	margin-bottom: 20px
+	
+}
+
+section h2{
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	
+}
+
+footer{
+	background-color: aqua;
+	color: black;
+	padding: 20px;
+	text-align: center:
+}

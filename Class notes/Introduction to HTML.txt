@@ -1,0 +1,30 @@
+What is HTML5
+HTML is Hyper Text Markup Language. This is the standard language that is used to create web pages. 
+HTML is a combination of Hypertext and Markup Language. 
+
+Hypertext defines the link between webpages
+Markup Language - Used to define that text document within the tag to define the structure of web pages.
+
+
+Features of HTML
+It is easy to learn and use
+It is platform-independent
+Images, videos, and audio can be added to a web page
+Hypertext can be added to the text
+It is a markup language
+
+
+
+Creating the first websiste
+Develop a habit of having everything in its own folder. Keeps things organised
+
+
+
+Notes to Remember
+HTML outputs notes on the page. 
+CSS is styling of notes on the page use <style> </style> tags
+- All the styling goes inside the style tags
+- All Css styling commands are always completed with a semi colon e.g. Font-Size: 100px;
+
+When styling font-size. this is always indicated in pixels e.g. Font-Size: 100px;
+- Font-Size: 100px; :- The first part of this syntax is the property and the second part is the value of the property

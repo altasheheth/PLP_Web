@@ -1,0 +1,113 @@
+Datatypes in js
+//string
+console.log("Hello world");
+var hello = 'Hello world';
+
+// numbers - integers and floats
+
+var balance = 1000; //integer
+
+const PI = 3.14152; //float
+
+
+// boolean - represents two values true/false (1/0)
+var success = true;
+console.log(success);
+
+// Undefined variable
+var session;
+console.log(session);  //output is - undefined
+
+// null
+defines an empty or an unknown variable
+
+var time = null;
+console.log(time);
+
+
+// arithmetic operators - mathematical
+let x = 100;
+let y = 50;
+
+// addition +
+console.log(x + y);
+
+// subtraction - 
+console.log(x - y);
+
+// multiplication
+console.log(x * y);
+
+// division /
+console.log(x / y);
+
+// exponetial **
+console.log(x ** y); //100^50
+
+// remainder %
+console.log(x % y);
+
+// increament ++
+x++;
+// decreament --
+x--;
+
+
+// Asignment operator
+var x = 10;
+var y = 7;
+
+// = 
+x = y;
+console.log(x);
+
+// addition +=
+console.log(x += y);
+
+// subtraction -=
+console.log(x -= y);
+
+// multiplication *=
+console.log(x *= y);
+
+// division /=
+console.log(x /= y);
+
+// remainder %=
+console.log(x %= y);
+
+
+// Comparison operators
+let x = 100;
+let y = '100';
+
+//equal ==
+console.log(x == y);
+
+// not equal !=
+console.log(x != y);
+
+// strict equal ===
+console.log(x === y);
+
+// strict not equal !==
+console.log(x !== y); // True
+
+let x = 100;
+let y = 50;
+
+// greater than >
+console.log(x > y);
+
+// less than <
+console.log(x < y);
+
+// greater than equal to >=
+console.log(x >= y);
+
+// less than equal to <=
+console.log(x <= y);
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Student Registration</title>
+</head>
+<body>
+    <form action="" method="post">
+        <!-- to capture name of the student -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!--capture date o birth of the student -->
+        <label for="birthday">Date of Birth</label>
+        <input type="date" id="birthday" name="birthday" placeholder="DD/MM/YYY" required> <br><br>
+
+        <!--get the gender of the student-->
+        <label>Gender</label><br>
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="male">Male</label>
+        <!--female option-->
+        <input type="radio" id="gender" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!--capture address-->
+        <label>Address</label><br>
+        <input type="text" id="address" name="address" placeholder="P.O. Box address"><br>
+        <label>Poastal Code</label><br>
+        <input type="text" id="poastal_code" name="poastal_code" placeholder="Poastal code"><br><br>
+
+        <!--Telephone number with country code drop down select-->
+        <label for="country-code">Country Code:</label>
+            <select id="country-code" name="country_code" required>
+                <option value="+254">Kenya(+254)</option>
+                <option value="+44">Uganda (+255)</option>
+                <option value="+91">Tanzania (+253)</option>
+                <option value="+61">Rwanda (+61)</option>
+                <option value="+81">Burundi (+81)</option>
+                <!-- Add more country codes as needed -->
+            </select>
+        <label>Telephone</label>
+        <input type="text" id="telephone" name="telephone" placeholder="Telephone" required><br>
+        <br><br>
+        <!-- Course Options for sudents to pick-->
+        <label for="courses">Course:</label>
+            <select id="course" name="course" placeholder="Courses" required>
+                <option value="cs">Computer Science</option>
+                <option value="bbit">Bsc. Business Information Systems</option>
+                <option value="softw_eng">Software Engineering</option>
+                <option value="data_analytics">Data Science</option>
+                <option value="ml">Machine Learning</option>
+            </select>
+
+    </form>
+    
+</body>
+</html>

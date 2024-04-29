@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Student Registration</title>
+</head>
+<body>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+
+    <form>
+        <label>Choose your preferred payment method</label><br>
+        <input type="radio" id="creditcard" name="paymentmethod" value="creditcard">
+        <label for="creditcard">Credit Card</label><br>
+
+        <input type="radio" id="paypal" name="paymentmethod" value="paypal">
+        <label for="paypal">PayPal</label><br>
+
+        <input type="radio" name="paymentmethod" id="mpesa" value="mpesa">
+        <label for="mpesa">M-Pesa</label><br><br>
+
+        <label>Interests: </label><br>  
+        <input type="file" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+
+        <input type="checkbox" id="motorcross" name="interests" value="motorcross">
+        <label for="motorcross">motorcross</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

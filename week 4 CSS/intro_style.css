@@ -1,0 +1,97 @@
+/* Applying background color on the page, using a standard font and apllying margin and padding*/
+body{
+    background-color: rgb(219, 236, 206);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 70px;
+    padding: 100px;
+}
+/*Formatting the header*/
+header{
+    background-color: bisque;
+    text-align: center;
+    padding: 50;
+    border-style: groove;
+    border-width: 5px ;
+}
+header h1{
+    margin: 10px;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px grey;
+}
+h2{
+    border-bottom-style: dashed;
+}
+/*Paragraph formating to give background color padding and rounded edges*/
+p{
+    margin: 10px;
+    background-color: seashell;
+    padding: 20px;
+    border-radius: 10px;
+}
+#skills{
+    background: lightskyblue;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+/*Spacing inbetween the listed skills*/
+#skills li{
+    margin-bottom: 10px;
+}
+.container{
+    border: 5px;
+    display: flex;
+    justify-content: space-between; /* */
+    background: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#name{
+    border: 5px;
+    width: 200px;
+    height: 150px;
+    font-size: 18px;
+   
+}
+#phone{
+    border: 5px;
+    width: 200px;
+    height: 150px;
+    font-size: 18px;
+    
+}
+#email{
+    border: 5px;
+    width: 300px;
+    height: 150px;
+    font-size: 18px;
+    
+}
+#social_media{
+    border: 5px;
+    width: 200px;
+    height: 150px;
+    font-size: 18px;
+    background: aquamarine;
+    padding-left: 20px;
+   
+}
+#social_media li {
+    list-style: none; /*Removing bullets*/
+    margin-bottom: 5px;
+    
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:rgb(41, 41, 174);
+}
+a:hover{
+    color:rgb(255, 138, 71);
+}
+a:active{
+    color: blue;
+}
